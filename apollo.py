@@ -111,6 +111,9 @@ for line in lines:
     if len(line) > 1:
         file.write(line + "\n")
 
+# new line space between entries on the file        
+file.write('\n')
+
 # close the file once done
 file.close()
 
