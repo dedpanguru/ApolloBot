@@ -39,7 +39,7 @@ cmd_parser.add_argument('course',
 cmd_parser.add_argument('-f', '--file',
                         dest='file',
                         action='append',
-                        nargs=1,
+                        nargs=2,
                         help='write to a txt file with a specified name; by default, this program will write to course_info.txt in appending mode ')
 # add positional flag: "-w" and "--write-over", set file writing mode to truncate (wipe the file and start anew)
 cmd_parser.add_argument('-w', '--write-over',
