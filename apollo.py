@@ -46,7 +46,7 @@ cmd_parser.add_argument('-w', '--write-over',
                         dest='w',
                         action='store_true',
                         help='write over file with course information')
-# add positional flag: "-w" and "--write-over", set file writing mode to truncate (wipe the file and start anew)
+# add positional flag: "-v" and "--version", display version of the program 
 cmd_parser.add_argument('-v', '--version',
                         action='version',
                         help='version of this program')
